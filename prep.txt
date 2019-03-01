@@ -1,0 +1,25 @@
+gcloud app create --project=<project name> --region=<App engine region> -q
+gcloud app deploy ../app/app.yml -q
+gcloud app browse
+gcloud functions logs read
+
+
+Jenkins/wordpress  -> marketplace - launcher
+
+gcloud container clusters list
+gcloud organizations list
+gcloud beta billing accounts list
+gcloud beta billing projects link <project_id> --billing-account=<billing account id>
+
+gcloud compute ssh mty@instance_name
+
+gcloud compute disks list
+gcloud compute disks snapshot <diskname>
+gcloud config configurations create <config name>
+gcloud config configurations activate default
+
+gcloud container clusters resize --size=4 --zone=<> <name of the cluster> 
+
+
+https://cloud.google.com/stackdriver/
+ https://cloud.google.com/vpc/docs/alias-ip
